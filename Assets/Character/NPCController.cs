@@ -37,7 +37,14 @@ public class NPCController : MonoBehaviour
         {
             _animator.SetBool("IsIdle", false);
             _animator.SetBool("IsWalking", true);
+            _animator.SetBool("IsJumping", true);
         }
+
+        //Jump
+        /*if(_animator.GetBool("IsJumping") && !_animator.GetBool("IsFalling"))
+        {
+
+        }*/
 
         //Different idle
 
